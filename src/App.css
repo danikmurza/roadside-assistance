@@ -1,0 +1,271 @@
+.navigation {
+  background-color: #0d0d0d;
+  height: 90px;
+padding-right: 40px;
+  padding-left: 40px;
+ margin-right: 0;
+
+
+}
+
+.lo{
+  color: white;
+  font-weight: bold;
+}
+.nav-btn{
+  /*margin-top: 20px;*/
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  margin: auto;
+}
+.book-now{
+  width: 95%;
+  height: 60px;
+  font-size: 32px;
+  margin-top: 14px;
+}
+
+
+.cont2 {
+  height: 88px;
+  background-color: #000000;
+  text-align: center;
+  tab-size: 43px;
+
+}
+
+.all-price {
+  padding-top: 30px;
+  color: white;
+  font-weight: bold;
+}
+.column {
+  height: 295px;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 100px;
+}
+.pages{
+  height: 191px;
+  width: 230px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: center;
+  justify-self: center;
+}
+
+
+
+.button{
+  width: 70%;
+  height: 80px;
+  font-size: 32px;
+
+}
+
+.jumba {
+  /*position: relative;*/
+  margin: 10px 30px 60px 30px;
+  border-radius: 10px;
+}
+
+.jump-image{
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 10px;
+}
+
+.form {
+  /*position: relative;*/
+  padding-top: 100px;
+  /*width: 80%;*/
+  /*padding-left: 50px;*/
+  /*position: center;*/
+  z-index: 9999;
+  cursor: pointer;
+
+}
+
+.booking {
+  width: 70%;
+  height: 80px;
+  font-size: 32px;
+
+}
+
+.iphone{
+  display: none;
+}
+
+.cards {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.log{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+@media screen and (max-width: 980px) {
+
+
+  .iphone{
+    display: block;
+    background-color: black;
+    margin: 0 0 0 0;
+    padding: 70px 0 70px 0;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .home-phone {
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+
+  .logotip{
+    margin: auto;
+    width: 300px;
+  }
+
+  .book-now{
+    height: 15%;
+    font-size: 42px;
+    width: 80%;
+    padding-left: 30px;
+    margin-left: 100px;
+    justify-self: center;
+    position: center;
+  }
+
+  .call-now {
+    display: block;
+    height: 15%;
+    font-size: 42px;
+    width: 80%;
+    padding-left: 30px;
+    margin-left: 100px;
+    justify-self: center;
+    position: center;
+  }
+
+
+  .span{
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+  }
+  .column {
+    height: 145px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .pages{
+    height: 141px;
+    width: 190px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: center;
+    justify-self: center;
+  }
+
+  .booking {
+    width: 70%;
+    height: 80px;
+    font-size: 32px;
+
+  }
+
+
+  .button{
+    width: 70%;
+    height: 80px;
+    font-size: 32px;
+
+  }
+
+  .jumba {
+    position: relative;
+    margin: 10px 30px 60px 30px;
+    border-radius: 10px;
+  }
+
+  .jump-image{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+
+  .form {
+    padding-top: 100px;
+    font-size: 50px;
+    width: 100%;
+    /*padding-right: 1px;*/
+    /*padding-left: 1px;*/
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+    contain: none;
+  }
+
+  .input {
+
+    font-size: 50px;
+  }
+
+  .main{
+    font-size: 25px;
+  }
+
+  .book-logo {
+    width: 80%;
+    height: 80%;
+  }
+
+  .booking-button{
+    height: 140px;
+    font-size: 50px;
+  }
+
+
+  .column {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding-right: 90px;
+    padding-left: 90px;
+    height: 550px;
+    background-color: #000000;
+
+  }
+  .pages {
+    /*margin: auto;*/
+    height: 191px;
+    width: 230px;
+
+  }
+
+  .cards {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .log{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+}
+
+
+
+
